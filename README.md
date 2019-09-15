@@ -1,7 +1,7 @@
 # Google-Drive-REST-Android
 Google Drive REST API for android
-
-After Google Depricated Google Drive Android Library, this is a simple wrapper of there REST API using OKHTTP.
+![Cover](https://raw.githubusercontent.com/tejpratap46/Google-Drive-REST-Android/master/cover_big.png)
+This is a simple wrapper of around Google Drive REST API using OKHTTP.
 
 ## Auth
 Before you can do any request, you need to authenticate your app with google drive, Best way is to use [Google Sign In For Android](https://developers.google.com/identity/sign-in/android/) with [Offline Access](https://developers.google.com/identity/sign-in/android/offline-access)
