@@ -279,7 +279,7 @@ public class MainActivity extends AppCompatActivity {
                 new AlertDialog.Builder(MainActivity.this)
                         .setTitle(R.string.app_name)
                         .setMessage(text)
-                        .setNeutralButton(R.string.text_retry, new DialogInterface.OnClickListener() {
+                        .setPositiveButton(R.string.text_retry, new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 showAuthOptions();
@@ -289,6 +289,15 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 finish();
+                            }
+                        })
+                        .setNeutralButton(R.string.text_icon8, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                String url = "http://www.example.com";
+                                Intent i = new Intent(Intent.ACTION_VIEW);
+                                i.setData(Uri.parse(url));
+                                startActivity(i);
                             }
                         })
                         .create()

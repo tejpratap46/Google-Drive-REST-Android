@@ -5,4 +5,5 @@
     <string name="text_with_google_signin">Auth Using Google Sign In</string>
     <string name="text_retry">Retry</string>
     <string name="text_cancel">Cancel</string>
+    <string name="text_icon8">Icons from icon8.com</string>
 </resources>
