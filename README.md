@@ -1,7 +1,27 @@
+[![](https://jitpack.io/v/tejpratap46/Google-Drive-REST-Android.svg)](https://jitpack.io/#tejpratap46/Google-Drive-REST-Android)
+
 # Google-Drive-REST-Android
 Google Drive REST API for android
 ![Cover](https://raw.githubusercontent.com/tejpratap46/Google-Drive-REST-Android/master/cover_big.png)
 This is a simple wrapper of around Google Drive REST API using OKHTTP.
+
+# Install via Gradle
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Step 2. Add the dependency
+```
+dependencies {
+        implementation 'com.github.tejpratap46:Google-Drive-REST-Android:VERSION'
+}
+```
 
 ## Auth
 Before you can do any request, you need to authenticate your app with google drive, Best way is to use [Google Sign In For Android](https://developers.google.com/identity/sign-in/android/) with [Offline Access](https://developers.google.com/identity/sign-in/android/offline-access)
