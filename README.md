@@ -3,6 +3,7 @@
 # Google-Drive-REST-Android
 Google Drive REST API for android
 ![Cover](https://raw.githubusercontent.com/tejpratap46/Google-Drive-REST-Android/master/cover_big.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftejpratap46%2FGoogle-Drive-REST-Android.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftejpratap46%2FGoogle-Drive-REST-Android?ref=badge_shield)
 This is a simple wrapper of around Google Drive REST API using OKHTTP.
 
 # Install via Gradle
@@ -86,3 +87,7 @@ try {
 ### All API's are abailable as Async Requests.
 
 Fo example, look into [MainActivity](https://github.com/tejpratap46/Google-Drive-REST-Android/blob/master/app/src/main/java/com/tejpratapsingh/googledriverestandroid/MainActivity.java) of app module
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftejpratap46%2FGoogle-Drive-REST-Android.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftejpratap46%2FGoogle-Drive-REST-Android?ref=badge_large)
